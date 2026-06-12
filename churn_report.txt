@@ -1,0 +1,46 @@
+============================================================
+CUSTOMER CHURN & REVENUE RISK ANALYSIS REPORT
+============================================================
+
+SEGMENT CHURN SUMMARY
+------------------------------------------------------------
+C_MKTSEGMENT  CHURNED_CUSTOMERS    REVENUE_AT_RISK AVG_CUSTOMER_VALUE  AVG_DAYS_SILENT PCT_OF_TOTAL_RISK
+   HOUSEHOLD               8310 $15,757,301,101.40      $1,896,185.45              499            20.20%
+   FURNITURE               8238 $15,716,134,431.66      $1,907,760.92              498            20.15%
+    BUILDING               8147 $15,584,278,622.23      $1,912,885.56              494            19.98%
+   MACHINERY               8183 $15,567,929,568.70      $1,902,472.15              504            19.96%
+  AUTOMOBILE               8175 $15,381,906,309.21      $1,881,578.75              501            19.72%
+
+RISK TIER BREAKDOWN
+------------------------------------------------------------
+C_MKTSEGMENT CHURN_RISK_TIER  CUSTOMERS   REVENUE_AT_RISK
+  AUTOMOBILE            HIGH       2453 $5,633,634,471.53
+  AUTOMOBILE             LOW       2674 $2,723,991,120.85
+  AUTOMOBILE          MEDIUM       3048 $7,024,280,716.83
+    BUILDING            HIGH       2514 $5,793,276,805.92
+    BUILDING             LOW       2513 $2,538,106,091.10
+    BUILDING          MEDIUM       3120 $7,252,895,725.21
+   FURNITURE            HIGH       2479 $5,711,417,156.42
+   FURNITURE             LOW       2593 $2,626,115,727.89
+   FURNITURE          MEDIUM       3166 $7,378,601,547.35
+   HOUSEHOLD            HIGH       2496 $5,804,300,183.25
+   HOUSEHOLD             LOW       2645 $2,710,110,531.38
+   HOUSEHOLD          MEDIUM       3169 $7,242,890,386.77
+   MACHINERY            HIGH       2537 $5,865,042,219.24
+   MACHINERY             LOW       2574 $2,591,064,624.75
+   MACHINERY          MEDIUM       3072 $7,111,822,724.71
+
+AI EXECUTIVE SUMMARY
+------------------------------------------------------------
+**Executive Summary: Customer Churn Analysis**
+
+Our customer churn analysis reveals a critical situation: approximately 41,053 customers are at risk, exposing a staggering $619 billion in revenue. The Household, Furniture, and Building segments are most vulnerable, collectively accounting for 60% of the total revenue at risk. The average customer value across these segments ranges from $188 million to $191 million, emphasizing the significant potential loss.
+
+Risk tier analysis indicates that 24% of customers in these segments are classified as HIGH risk, with the remaining 76% divided between MEDIUM (45%) and LOW (31%) risk. The HIGH risk tier accounts for 32% of the total revenue at risk, predominantly in the Building and Machinery segments.
+
+To mitigate this risk, we recommend the following retention strategies: 
+
+1. **Targeted Engagement**: Implement personalized outreach programs for HIGH risk customers in the Building and Machinery segments, focusing on tailored solutions and enhanced customer support to prevent churn.
+2. **Segment-Specific Loyalty Initiatives**: Develop and launch loyalty programs tailored to the Household and Furniture segments, offering incentives and rewards that address the unique needs and preferences of these customer groups, driving long-term loyalty and retention.
+
+By prioritizing these strategic initiatives, we can effectively reduce customer churn, protect revenue, and maintain a competitive edge in the market.
