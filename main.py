@@ -139,7 +139,7 @@ Write in a direct, executive-ready tone. Lead with the most critical finding fir
 """
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="qwen/qwen3.6-27b",
         messages=[{"role": "user", "content": prompt}],
         max_tokens=1024
     )
